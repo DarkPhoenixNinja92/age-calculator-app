@@ -1,0 +1,13 @@
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day, .month {
+    margin-right: 25%;
+}
+
+input {
+    width: 16%;
+}
