@@ -11,3 +11,8 @@
 input {
     width: 16%;
 }
+
+.arrow {
+    background-color: hsl(259, 100%, 65%);
+    cursor: pointer;
+}
