@@ -1,3 +1,7 @@
+body {
+    background-color: hsl(0, 0%, 86%);
+}
+
 .labels {
     display: flex;
     align-items: center;
@@ -15,4 +19,8 @@ input {
 .arrow {
     background-color: hsl(259, 100%, 65%);
     cursor: pointer;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
 }
