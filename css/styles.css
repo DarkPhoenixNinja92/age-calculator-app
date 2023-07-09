@@ -9,7 +9,7 @@ body {
 }
 
 .day, .month {
-    margin-right: 25%;
+    margin-right: 21%;
 }
 
 input {
@@ -18,9 +18,25 @@ input {
 
 .arrow {
     background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    padding: 0.8em;
+    width: 9%;
     cursor: pointer;
+    position: relative;
+    left: 37vw;
+    top: 2vh;
 }
 
 .container {
+    position: relative;
+    top: 22vh;
     background-color: hsl(0, 0%, 100%);
+    border-radius: 10px 10px 50px 10px;
+    padding-bottom: 55%;
+}
+
+form  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
