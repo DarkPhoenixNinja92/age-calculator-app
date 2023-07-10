@@ -34,7 +34,7 @@ input {
     cursor: pointer;
     position: relative;
     left: 37vw;
-    top: 2vh;
+    top: 3vh;
 }
 
 .container {
@@ -53,7 +53,7 @@ form  {
 
 hr {
     position: relative;
-    top: 3.8em;
+    top: 4.5em;
     width: 85%;
     opacity: 65%;
 }
@@ -87,4 +87,41 @@ hr {
 
 span   {
     color: hsl(259, 100%, 65%);
+}
+
+.date-valid,.required-01,.required-02,.required-03,.valid-day,.valid-month,.valid-year {
+    color: hsl(0, 100%, 67%);
+    position: absolute;
+    width: 25%;
+    top: 10.3em;
+    left: 0.44em;
+    text-align: center;
+}
+
+.required-01,.required-02,.required-03 {
+    left: 1.6em;
+}
+
+.required-02 {
+    left: 8.4em;
+}
+
+.required-03  {
+    left: 15.3em;
+}
+
+.valid-day {
+    left: 1.6em;
+}
+
+.valid-month  {
+    left: 8.2em;
+}
+
+.valid-year {
+    left: 15em;
+}
+
+.hide {
+    display: none;
 }
