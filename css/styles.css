@@ -3,17 +3,27 @@ body {
 }
 
 .labels {
+    padding-top: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: hsl(0, 1%, 44%);
+    text-transform: uppercase;
 }
 
 .day, .month {
-    margin-right: 21%;
+    margin-right: 17%;
+}
+
+.year {
+    position: relative;
+    right: 1em;
 }
 
 input {
     width: 16%;
+    padding: 1em 0 1em 0.5em;
+    font-size: 20px;
 }
 
 .arrow {
@@ -32,11 +42,49 @@ input {
     top: 22vh;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px 10px 50px 10px;
-    padding-bottom: 55%;
+    padding-bottom: 0;
 }
 
 form  {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+hr {
+    position: relative;
+    top: 3.8em;
+    width: 85%;
+    opacity: 65%;
+}
+
+.age {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.months,.days,.years {
+    position: relative;
+}
+
+.months {
+    bottom: 2.1em;
+    right: 0.45em;
+}
+
+.days {
+    bottom: 4.1em;
+    right: 0.7em;
+}
+
+.years {
+    right: 0.65em;
+}
+
+span   {
+    color: hsl(259, 100%, 65%);
 }
